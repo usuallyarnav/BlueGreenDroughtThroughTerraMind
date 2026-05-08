@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+env/
+ENV/
+raw/
+processed/
+
+# Gradio cache
+.gradio/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (large or sensitive)
+*.pt
+*.pth
+*.tif
+*.tiff
+*.csv
+*.json
+*.npy
+data/
+gee_raw/
+gee_scenes/
+plots/
+Telangana_Instant_Data/
+Telangana_Instant_Data_post_monsoon/
+checkpoints/
+*.onnx
+*.engine
+
+# Logs and results
+real_eval_results.json
+validation_results.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
